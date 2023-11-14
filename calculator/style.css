@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.center{
+    text-align: center;
+}
+
+.mx-auto{
+
+    margin: auto;
+}
+
+.button{
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    color: white;
+    background-color:rgb(64, 0, 255);
+    width: 60px;
+    font-size: 14px;
+    
+}
+
+.flex{
+
+    display: flex;
+
+}
+
+.flex-col{
+
+flex-direction: column;
+}
+
+.items-center{
+  align-items: center;
+}
+
+.row{
+    margin: 8px 0;
+    
+
+}
+
+.row input{
+    font-size: 20px;
+    margin: 0px;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.container{
+    border: 2px solid black;
+    width: 300px;
+    background-color: black;
+    border-radius: 5px;
+}
+.input{
+    width: 270px;
+}

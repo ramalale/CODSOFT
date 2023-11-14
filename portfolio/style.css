@@ -1,0 +1,351 @@
+ @import url('https://fonts.googleapis.com/css2?family=Mea+Culpa&family=Varela+Round&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Mea+Culpa&family=Pacifico&family=Varela+Round&display=swap');
+
+ .rightsection{
+    background-image: url(color3.avif);  
+}
+.leftsection{
+   background-image: url(color3.avif);  
+}
+
+ nav {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     height: 100px;
+     background-color: rgb(168, 44, 89);
+     /* font-family: 'Mea Culpa', cursive; */
+     /* font-family: 'Varela Round', sans-serif; */
+ }
+
+
+ li {
+     margin: 0 23px;
+ }
+
+ .left {
+     color: white;
+     font-size: 3rem;
+     font-family: 'Mea Culpa', cursive;
+ }
+
+ .right {
+     color: white;
+     font-size: 30px;
+     
+ }
+
+ .right ul {
+     color: white;
+     font-size: 30px;
+     display: flex;
+     justify-content: center;
+     list-style: none;
+ }
+
+ .firstsection {
+     display: flex;
+     justify-content: space-around;
+     margin: 40px 0;
+     height: 800px;
+     box-shadow: 0px 5px 7px rgb(168, 44, 89);
+     /* background-color:rgb(104, 111, 9); */
+ }
+
+ .leftsection {
+     font-size: 2rem;
+     margin: 50px;
+     width: 700px;
+     /* border: 2px solid black; */
+     height: 650px;
+     
+
+     /* font-family: 'Mea Culpa', cursive; */
+     /* font-family: 'Mea Culpa', cursive; */
+     font-family: 'Pacifico', cursive;
+     font-family: 'Varela Round', sans-serif;
+     box-shadow: 0px 5px 7px rgb(168, 44, 89);
+
+
+ }
+ .leftsection img {
+    max-width:100%;
+    max-height: 100%;
+   
+    
+    display: block;
+
+}
+.center{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+}
+
+  .rightsection{
+    width: 700px;
+    margin: 50px;
+    box-shadow: 0px 5px 7px rgb(168, 44, 89);
+    height: 600px;
+    padding: 30px;
+    /* border-radius: 200%; */
+
+    
+
+    
+    
+ } 
+
+ .rightsection img {
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    margin-top: 50px;
+   
+    
+     
+     
+
+ }
+
+ /* .firstsection>div {
+     width: 30%;
+
+ } */
+
+ /* leftsection > div{
+    width: 500%;
+.
+}  */
+ .purple {
+     color: blueviolet;
+
+ }
+
+ .gray {
+     color: rgb(73, 44, 168);
+     font-size: larger;
+ }
+
+ nav ul li a {
+     text-decoration: none;
+     color: white;
+ }
+
+ nav ul li a:hover {
+     color: lavender;
+     font-size: 1.01rem;
+ }
+
+ #element {
+     color: rgb(255, 0, 140);
+ }
+
+ .button {
+     height: 50px;
+     width: 180px;
+     margin: 50PX;
+     border: none;
+     background-color: rgb(168, 44, 89);
+     color: white;
+     text-align: center;
+     display: inline-block;
+     font-size: 14px;
+     padding: 14px 28px;
+     cursor: pointer;
+     font-family: 'Pacifico', cursive;
+     font-family: 'Varela Round', sans-serif;
+
+ }
+
+
+ .secondsection {
+     width: 100%;
+     height: 600px;
+     background-color: white;
+     height: 550px;
+     box-shadow: 0px 5px 7px rgb(168, 44, 89);
+     margin: 40px 0;
+
+ }
+
+ .contact {
+     text-align: center;
+     margin-top: 40px;
+     font-size: 2rem;
+     font-family: 'Varela Round', sans-serif;
+
+ }
+
+ .contact h1 {
+     font-size: 2.5rem;
+     text-decoration: underline;
+ }
+
+ .contact ul {
+     list-style-type: none;
+     padding: 0;
+ }
+
+ .contact li {
+     margin: 20px 0;
+ }
+
+ .contact a {
+     color: #007BFF;
+     text-decoration: none;
+ }
+ .third{
+    /* border: 2px solid black; */
+    height: 350px;
+    box-shadow: 4px 5px 7px rgb(168, 44, 89);
+ }
+ .third h1{
+    font-size: 2.5rem;
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+   
+ }
+  .third a{
+    /* height: 50px;
+    width: 180px; */
+    /* margin-left: 890px; */
+    border: none;
+    /* background-color: rgb(158, 44, 168); */
+    color: white;
+    /* text-align: center; */
+    /* display: flex; */
+    font-size: 1.5rem;
+    /* padding: 14px 28px; */
+    cursor: pointer;
+    padding: 5px;
+    font-family: 'Varela Round', sans-serif;   
+ } 
+ .third .res{
+    /* border: 2px solid black; */
+    height: 100px;
+    width: 250px;
+    margin-left: 880px;
+    text-align: center;
+    background-color: rgb(168, 44, 89) ;
+    font-size: 2rem;
+    color: white;
+    box-shadow: 0px 5px 7px rgb(168, 44, 89);
+ }
+ .fourth{
+    /* border: 2px solid black; */
+    height: 1300px;
+    box-shadow: 4px 7px 7px rgb(168, 44, 89);
+ }
+ .project{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Varela Round', sans-serif;
+    /* text-align: center; */
+ }
+ .pro{
+    height: 450px;
+    width: 1950px;
+    /* border: 2px solid black; */
+    margin: 25px;
+    display: flex;
+ }
+ /* .project h1{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Varela Round', sans-serif;
+ } */
+ .pic{
+    box-shadow: 4px 7px 7px rgb(168, 44, 89);
+    height: 350px;
+    width: 900px;
+    margin: 50px;
+    /* margin-top: 85px; */
+    /* justify-content: space-between; */
+
+    
+ }
+ .des{
+    box-shadow: 4px 7px 7px rgb(168, 44, 89);
+    height: 400px;
+    width: 700px;
+    margin: 50px;
+    /* margin-top: 85px; */
+    /* justify-content: space-between; */
+     
+ } 
+ .pic img{
+    width: 900px;
+    height: 350px;
+ }
+ .fifth{
+      /* border: 2px solid black;   */
+    height: 600px;
+ 
+ }
+ .skill{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Varela Round', sans-serif;
+ }
+ .small{
+    height: 450px;
+    width: 1950px;
+    /* border: 2px solid black;  */
+    margin: 25px;
+    display: flex;
+    box-shadow: 4px 7px 7px rgb(168, 44, 89);
+ }
+ .html{
+    height: 350px;
+    width: 550px; 
+    /* border: 2px solid black;  */
+    margin: 50px;
+    /* border-radius: 50%; */
+ }
+ .css{
+    height: 350px;
+    width: 550px;
+    /* border: 2px solid black; */
+    margin: 50px;
+ }
+ .script{
+    height: 350px;
+    width: 550px;
+    /* border: 2px solid black; */
+    margin: 50px;
+ }
+ .html img{
+    height: 350px;
+    
+    
+ }
+ .css img{
+    height: 350px;
+ }
+ .script img{
+    height: 350px;
+ }
+ .pre{
+    /* border: 2px solid black; */
+    height: 700px;
+    width: 1960px;
+    display: flex;
+    /* box-shadow: 4px 7px 7px rgb(168, 44, 89); */
+ }
+ .pic2{
+    height: 560px;
+    /* width: 900px; */
+    margin: 50px;
+    /* border: 2px solid black; */
+    box-shadow: 4px 7px 7px rgb(168, 44, 89);
+ }
+ .des2{
+    height: 570px;
+    width: 900px;
+    margin: 50px;
+    /* border: 2px solid black; */
+    box-shadow: 4px 7px 7px rgb(168, 44, 89);
+ }
+ 
